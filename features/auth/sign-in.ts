@@ -36,7 +36,7 @@ export const signIn = async (values: unknown) => {
   } catch {
     return {
       success: false,
-      message: "Invalid login",
+      message: "Invalid sign in",
     }
   }
 
